@@ -1,4 +1,4 @@
-name: CI/CD Pipeline for Spring Boot Auth Api
+name: CI/CD Pipeline for Spring Boot Eureka Server
 
 on:
   push:
