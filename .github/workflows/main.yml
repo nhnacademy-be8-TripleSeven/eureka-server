@@ -63,5 +63,5 @@ jobs:
               docker stop eureka-server || true
               docker rm -f eureka-server || true
             fi
-              docker run -d --name eureka-server -p 8761:8761 -e lushlife99/nhn-eureka:${{ github.sha }}
+              docker run -d --name eureka-server -p 8761:8761 lushlife99/nhn-eureka:${{ github.sha }}
 
