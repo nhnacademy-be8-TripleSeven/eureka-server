@@ -1,0 +1,8 @@
+eureka:
+  instance:
+    hostname: eureka-server
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+    service-url:
+      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@eureka-server:8761/eureka/
